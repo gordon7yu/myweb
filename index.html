@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Gordon Yu</title>
+	
+	<!-- Bootstrap -->
+	<link href="./assets/bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- [if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif] -->
+
+	<style>
+		.white-background{
+			background-color: white;
+		}
+		.grey-background{
+			background-color: #f9f9f9;
+		}
+	</style>
+
+</head>
+
+<body>
+<nav id="navbar-yg" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">G.Y Personal Website</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			<ul class="navbar-nav nav-underline">
+				<li class="nav-item nav-text">
+				<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+				</li>
+				<li class="nav-item nav-text">
+				<a class="nav-link" href="#about-me">ABOUT</a>
+				</li>
+				<li class="nav-item nav-text">
+				<a class="nav-link" href="#project">PROJECT</a>
+				</li>
+				<li class="nav-item nav-text">
+				<a class="nav-link" href="#publication">PUBLICATION</a>
+				</li>
+				<li class="nav-item nav-text">
+				<a class="nav-link" href="#contact">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<main id="main" data-bs-spy="scroll" data-bs-target="#navbar-yg" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+
+	<div class="white-background">
+		<div id="welcome" class="container text-left" style="padding: 100px 0px 100px 0px;">
+			<div class="row align-items-center">
+				<div class="col-8">
+					<img src="assets/images/yg2.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col" style="padding: 0px 0px 0px 50px;">
+					<h1 class="display-3">Gordon Yu</h1>
+					<h1 class="display-5" style="padding: 0 0 20px 0">于港</h1>
+					<p class="h6" style="padding: 0 0 20px 0">Master Student</p>
+					<p class="h6" style="padding: 0 0 20px 0">Academy of Arts & Design, </br> Tsinghua University</p>
+					<p class="h6" style="padding: 0 0 20px 0">The Future Laboratory, </br> Tsinghua University</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="grey-background">
+		<div class="container">
+			<div id="about-me" class="about-section" style="padding: 50px 0px 0px 0px">
+				<h1 class="display-3 fw-semibold lh-lg">ABOUT</h1>
+				<div style="font-size: 18px;">
+					I'm currently a master student in the Academy of Arts & Design, Tsinghua University, advised by Prof. Yingqing Xu. I earned my bachelor degree of Creative Design and Intelligent Engineering (CDIE) from Xinya College, Tsinghua University. My goal is to create innovative technologies and actually bring them to people's life. I mean real-world application.
+				</div>
+				<div><a href = "#" style="padding: 0 0 10px 0">View my resume</a></div>
+				<!-- <hr style="height:2px; width:50%; text-align: center; border-width:0; color:red; background-color:red"> -->
+				<h1 class="display-6 lh-lg text-left">Research Focus</h1>
+				<div class="container text-left" style="padding: 0 0 50px 0">
+					<div class="row align-items-center">
+						<div class="col">
+							<p class="h5">Olfactory Computing</p>
+							<div class='recearch-area-icon'><img class='img' src='assets/images/olfactory computing.png' width="50" hspace="3" vspace="10"/></div>
+							<div>Olfactory computing refers to using the sensing technology to digitalize odor information. Our team conduct comprehensively research in gas sensors, electronic nose systems, odor database, signal processing & algorithm, and human olfactory sensory evaluation.</div>
+						</div>
+						<div class="col">
+							<p class="h5">AI-empowered Hardware</p>
+							<div class='recearch-area-icon'><img class='img' src='assets/images/ai hardware.png' width="35" vspace="10"/></div>
+							<div>AI-empowered hardwares feature with typical natral language interaction and context-aware technologies based on large language models, with a compact, wearable, and cloud-based hardware appearance. They are entrances of AI-based applications.</div>
+						</div>
+						<div class="col">
+							<p class="h5">Human Computer Interaction</p>
+							<div class='recearch-area-icon'><img class='img' src='assets/images/hci.png' width="50" vspace="11.5"/></div>
+							<div>HCI research is a multidisciplinary field of study that focuses on the design of computer technology and the interaction between humans and computing systems. Our goal is to improve how humans interact with technology and to invent new technologies.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="white-background">
+		<div class="container" id="project" style="padding: 50px 0px 30px 0px">
+			<h1 class="display-3  fw-semibold lh-lg">PROJECT</h1>
+			<div class="text-left" style="padding: 0px 0px 20px 0px;">
+				<div class="row align-items-start">
+					<div class="col-4">
+						<img src='assets/images/universal e-nose.png' class="img-fluid" alt="">
+					</div>
+					<div class="col">
+						<div class="recent-work-title">Universal Olfactory Sensing Project</div>
+						In this work, we present a miniaturized E-nose system capable of real-time, on-board classification of commonly encountered odors. This device, equipped with a metal oxide semiconductor (MOS) gas sensors array, runs the whole odor inference process on board. Taking 53 common substances as targets, the device can identify these odorants with the highest accuracy of 95.0% and the total analytical time for collection the samples' volatile, odor fingerprints encoding, and machine learning inferring on board is merely 7 seconds.
+						<div><a href = "">learn more</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="text-left" style="padding: 0px 0px 20px 0px;">
+				<div class="row align-items-start">
+					<div class="col-4">
+						<img src='assets/images/precious cook.png' class="img-fluid" alt="">
+					</div>
+					<div class="col">
+						<div class="recent-work-title">Precise Cook Based on Odors</div>
+						Olfactory plays an important roles in human sensing of food flavors. Through odors, we can distinguish whether the food is delicious or unpleasant. In this project, we are devoted to design an odor sensing system that can identify the cooking state of food during the baken and roasting process, including raw state, best-cooking state, or overcooked state. Also, our team is curious about what the molecular components are behind the cooking aroma, both pleasant and unpleasant.
+						<div><a href = "">learn more</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="text-left" style="padding: 0px 0px 20px 0px;">
+				<div class="row align-items-start">
+					<div class="col-4">
+						<img src='assets/images/helium balloon.jpg' class="img-fluid" alt="">
+					</div>
+					<div class="col">
+						<div class="recent-work-title">Helium Aerostat Design</div>
+						Although current unmanned aerial vehicles (UAVs) can perform a variety of tasks in outdoor environment, they are difficult to be used in indoor scenes. Due to the configuration of propellers, ordinary quadrotor UAVs become very dangerous in indoor environment and places with people. They are easy to crash. Their noise and airflow also greatly affect the environment. Under the background of these problems, I proposed an indoor aerostat. The aerostat utilized two airbags to move in the vertical direction. The main airbag was inflated with Helium to gain buoyancy, and the auxiliary airbag was inflated with air to change mass itself. The work mainly includes four parts: mechanical design, electronic hardware design, algorithm design, and appearance design.
+						<div><a href = "">learn more</a></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+	
+	
+	<div class="grey-background">
+		<div class="container">
+			<div id="publication"  style="padding: 50px 0px 25px 0px">
+				<h1 class="display-3 fw-semibold lh-lg">Publication</h1>
+	
+				<ol>
+					<li>
+						Chen, Y., Shen, K., Yu, G., Qiao, Y., Yan, X., Zhang, W., & Xu, Y. (2021, October). EEG Based Artistic Visualization of Dreams. In The Ninth International Symposium of Chinese CHI (pp. 144-151)
+					</li>
+					<li>
+						Yu G, Li X,Gao P, et al. Itergrated Bathing Suits for Astronauts in Zero-g environment[P]. Beijing: CN216363721U, 2022-04-26. (Utility Model Patent)
+					</li>
+				</ol>
+	
+			</div>
+	
+			<div id="contact"  style="padding: 25px 0px 50px 0px">
+				<h1 class="display-3 fw-semibold lh-lg">Contact Me</h1>
+	
+				<ul>
+					<li>Wechat: yugang16</li>
+					<li>E-mail: yg21@mails.tsinghua.edu.cn / gang.y97@outlook.com</li>
+				</ul>
+	
+			</div>
+
+		</div>
+	</div>
+
+
+
+</main>
+
+<script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
