@@ -1,233 +1,549 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Gordon Yu</title>
-	<link rel="icon" href="./assets/images/g.png" type="image/png">
-	
-	<!-- Bootstrap -->
-	<link href="./assets/bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- [if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif] -->
-
-	<style>
-		.white-background{
-			background-color: white;
-		}
-		.grey-background{
-			background-color: #f9f9f9;
-		}
-		.dark-background{
-			background-color: #2b2b2b;
-		}
-	</style>
-
-</head>
-
-<body>
-<nav id="navbar-yg" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="#">G.Y Personal Website</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-			<ul class="navbar-nav nav-underline">
-				<li class="nav-item nav-text">
-				<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-				</li>
-				<li class="nav-item nav-text">
-				<a class="nav-link" href="#about-me">ABOUT</a>
-				</li>
-				<li class="nav-item nav-text">
-				<a class="nav-link" href="#project">PROJECT</a>
-				</li>
-				<li class="nav-item nav-text">
-				<a class="nav-link" href="#publication">PUBLICATION</a>
-				</li>
-				<li class="nav-item nav-text">
-				<a class="nav-link" href="#contact">CONTACT</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
-
-
-<main id="main" data-bs-spy="scroll" data-bs-target="#navbar-yg" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-
-	<div class="white-background">
-		<div id="welcome" class="container text-left" style="padding: 100px 0px 70px 0px;">
-			<div class="row gx-5 gy-4 align-items-center">
-				<div class="col-sm-12 col-md-8">
-					<img src="assets/images/yg2.jpg" class="img-fluid" alt="">
-				</div>
-				<div class="col-sm-12 col-md-4">
-					<h1 class="display-3 fw-normal">Gordon Yu</h1>
-					<h1 class="display-5 fw-normal">于港</h1>
-					<p class="h6 lh-lg">Master Student</p>
-					<p class="h6">Academy of Arts & Design, </br> Tsinghua University</p>
-					<p class="h6">The Future Laboratory, </br> Tsinghua University</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="grey-background">
-		<div class="container">
-			<div id="about-me" class="about-section" style="padding: 50px 0px 70px 0px">
-				<h1 class="display-3 fw-semibold lh-lg">ABOUT</h1>
-				<div style="font-size: 16px;">
-					I'm currently a master student in the Academy of Arts & Design, Tsinghua University, advised by Prof. Yingqing Xu. I earned my bachelor degree of Creative Design and Intelligent Engineering (CDIE) from Xinya College, Tsinghua University. My goal is to create innovative technologies and actually bring them to people's life. I mean real-world application.
-				</div>
-				<div style="padding: 10px 0 0 0;">
-					<a href = "./assets/files/cv_YuGang.pdf" target="_blank">
-						<img src='./assets/images/file-pdf.svg' class="img-fluid" alt="">
-						View my resume
-					</a>
-				</div>
-				
-				<h1 class="display-6 lh-lg text-left fw-semibold">Research Focus</h1>
-				<div class="container text-left" style="padding: 0 0 0px 0">
-
-					<div class="row gy-4 align-items-center">
-						<div class="col-sm-12 col-md-4">
-							<p class="h5">Olfactory Computing</p>
-							<div class='recearch-area-icon'><img class='img' src='assets/images/olfactory computing.png' width="50" hspace="3" vspace="10"/></div>
-							<div style="font-size: 16px;">Olfactory computing refers to using the sensing technology to digitalize odor information. Our team conduct comprehensively research in gas sensors, electronic nose systems, odor database, signal processing & algorithm, and human olfactory sensory evaluation.</div>
-						</div>
-						<div class="col-sm-12 col-md-4">
-							<p class="h5">AI-empowered Hardware</p>
-							<div class='recearch-area-icon'><img class='img' src='assets/images/ai hardware.png' width="35" vspace="10"/></div>
-							<div style="font-size: 16px;">AI-empowered hardwares feature with typical natral language interaction and context-aware technologies based on large language models, with a compact, wearable, and cloud-based hardware appearance. They are entrances of AI-based applications.</div>
-						</div>
-						<div class="col-sm-12 col-md-4">
-							<p class="h5">Human Computer Interaction</p>
-							<div class='recearch-area-icon'><img class='img' src='assets/images/hci.png' width="50" vspace="11.5"/></div>
-							<div style="font-size: 16px;">HCI research is a multidisciplinary field of study that focuses on the design of computer technology and the interaction between humans and computing systems. Our goal is to improve how humans interact with technology and to invent new technologies.</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="white-background">
-		<div class="container" id="project" style="padding: 50px 0px 70px 0px">
-			<h1 class="display-3  fw-semibold lh-lg">PROJECT</h1>
-			<div class="text-left" style="padding: 0px 0px 0px 0px;">
-				<div class="row gy-3 align-items-start">
-					<div class="col-sm-12 col-md-4">
-						<img src='assets/images/universal e-nose.png' class="img-fluid" alt="">
-					</div>
-					<div class="col-sm-12 col-md-8">
-						<p class="h3 lh-md">Universal Olfactory Sensing Project</p>
-						In this work, we present a miniaturized E-nose system capable of real-time, on-board classification of commonly encountered odors. This device, equipped with a metal oxide semiconductor (MOS) gas sensors array, runs the whole odor inference process on board. Taking 53 common substances as targets, the device can identify these odorants with the highest accuracy of 95.0% and the total analytical time for collection the samples' volatile, odor fingerprints encoding, and machine learning inferring on board is merely 7 seconds.
-						<div><a href = "">Paper Under Review</a></div>
-						
-					</div>
-				</div>
-			</div>
-			<hr style="height:2px; width:50%; border-width:0; color:gray; background-color:gray">
-			<div class="text-left" style="padding: 0px 0px 0px 0px;">
-				<div class="row gy-3 align-items-start">
-					<div class="col-sm-12 col-md-4">
-						<img src='assets/images/precious cook.png' class="img-fluid" alt="">
-					</div>
-					<div class="col-sm-12 col-md-8">
-						<p class="h3 lh-md">Precise Cook Based on Odors</p>
-						Olfactory plays an important roles in human sensing of food flavors. Through odors, we can distinguish whether the food is delicious or unpleasant. In this project, we are devoted to design an odor sensing system that can identify the cooking state of food during the baken and roasting process, including raw state, best-cooking state, or overcooked state. Also, our team is curious about what the molecular components are behind the cooking aroma, both pleasant and unpleasant.
-						<a href = "./assets/files/PreciousCook.pdf" target="_blank">
-							<img src='./assets/images/file-pdf.svg' class="img-fluid" alt="">
-							learn more
-						</a>
-					</div>
-				</div>
-			</div>
-			<hr style="height:2px; width:50%; border-width:0; color:gray; background-color:gray">
-			<div class="text-left" style="padding: 0px 0px 0px 0px;">
-				<div class="row gy-3 align-items-start">
-					<div class="col-sm-12 col-md-4">
-						<img src='assets/images/helium balloon.jpg' class="img-fluid" alt="">
-					</div>
-					<div class="col-sm-12 col-md-8">
-						<p class="h3 lh-md">Helium Aerostat Design</p>
-						Although current unmanned aerial vehicles (UAVs) can perform a variety of tasks in outdoor environment, they are difficult to be used in indoor scenes. Due to the configuration of propellers, ordinary quadrotor UAVs become very dangerous in indoor environment and places with people. They are easy to crash. Their noise and airflow also greatly affect the environment. Under the background of these problems, I proposed an indoor aerostat. The aerostat utilized two airbags to move in the vertical direction. The main airbag was inflated with Helium to gain buoyancy, and the auxiliary airbag was inflated with air to change mass itself. The work mainly includes four parts: mechanical design, electronic hardware design, algorithm design, and appearance design.
-						<div>
-							<a href = "./assets/files/Helium.pdf" target="_blank">
-								<img src='./assets/images/file-pdf.svg' class="img-fluid" alt="">
-								learn more
-							</a>
-							&emsp;
-							<a href = "https://www.bilibili.com/video/BV1154y1G7WN/?spm_id_from=333.999.0.0" target="_blank">
-								<img src='./assets/images/camera-video.svg' class="img-fluid" alt="">
-								vedio
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<hr style="height:2px; width:50%; border-width:0; color:gray; background-color:gray">
-
-		</div>
-		
-	</div>
-	
-	
-	<div class="grey-background">
-		<div class="container">
-			<div id="publication"  style="padding: 50px 0px 70px 0px">
-				<h1 class="display-3 fw-semibold lh-lg">Publication</h1>
-	
-				<ol>
-					<li>
-						Chen, Y., Shen, K., Yu, G., Qiao, Y., Yan, X., Zhang, W., & Xu, Y. (2021, October). EEG Based Artistic Visualization of Dreams. In The Ninth International Symposium of Chinese CHI (pp. 144-151)
-					</li>
-					<li>
-						(Under Review, Co-first Author) Yuchi Sun, Gang Yu, Qi Lu, Haoxuan Han, Jia-Wei Yang, Yingqing Xu. An Electronic Nose Device with Rapid and Universal Odor Detection Capability. Sensors and Actuators B: Chemical.
-					</li>
-					<li>
-						Xu Y, Yu G, Sun Y, et al. Odor based cooking state recognition method[P]. Beijing (Invention Patent)
-					</li>
-					<li>
-						Xu Y, Yu G, Sun Y, et al. Odor recognition model training method and device[P]. Beijing (Invention Patent)
-					</li>
-					<li>
-						Yu G, Li X,Gao P, et al. Itergrated Bathing Suits for Astronauts in Zero-g environment[P]. Beijing: CN216363721U, 2022-04-26. (Utility Model Patent)
-					</li>
-				</ol>
-	
-			</div>
-	
-			<div id="contact"  style="padding: 50px 0px 70px 0px">
-				<h1 class="display-3 fw-semibold lh-lg">Contact Me</h1>
-	
-				<ul>
-					<li>E-mail: yg21@mails.tsinghua.edu.cn / gang.y97@outlook.com</li>
-					<li>Wechat: yugang16</li>
-					<li>X: @gordon7yu</li>
-					<li>Address: Beijing, China</li>
-				</ul>
-	
-			</div>
-
-		</div>
-	</div>
-
-</main>
-
-<footer id="footer">
-	<div class="container-fluid dark-background" style="padding: 20px 0 2px 0">
-		<div class="row">
-			<p class="text-center" style="color:white">
-				Copyright &copy; 2024, Gang(Gordon) Yu<br>
-			</p>
-		</div>
-	</div>
-</footer>
-
-<script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Gang Yu"
+    />
+    <title>Gang Yu</title>
+    <!-- Previous image favicon (uncomment to restore):
+    <link rel="icon" href="assets/images/g.png" />
+    -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🧊%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body>
+    <!-- Site header and navigation -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-name" href="#top">Home</a>
+        <nav>
+          <a href="#research">Research</a><a href="#news">News</a
+          ><a href="#publications">Publications</a
+          ><a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main id="top" class="container">
+      <!-- Profile / About -->
+      <section class="profile">
+        <div class="profile-media">
+          <img
+            class="profile-photo"
+            src="assets/images/yg2.jpg"
+            alt="Gang Yu"
+          />
+          <!-- <br> -->
+          <p class="profile-links">
+            <a href="assets/files/cv_YuGang.pdf" target="_blank"
+              ><span aria-hidden="true">📜</span> CV</a
+            ><a href="mailto:yug24@mails.tsinghua.edu.cn"
+              ><span aria-hidden="true">📧</span> E-mail</a
+            ><a href="https://scholar.google.com/citations?user=auLmdCMAAAAJ&hl=en"
+              ><span aria-hidden="true">🎓️</span> Google Scholar</a
+            >
+        </div>
+        <div>
+          <h1>Gang Yu / Gordon <span>于港</span></h1>
+          <p>
+            <strong>Gang Yu</strong> is currently a PhD candidate at
+            <a href="https://thfl.tsinghua.edu.cn/index.htm">The Future Laboratory</a>
+             / Academy of Arts &amp; Design, Tsinghua
+            University, co-advised by <a href="https://thfl.tsinghua.edu.cn/yjdw/jzg/zxjg/gzyysyjzx/yjy/tky.htm">Prof. Keyang Tang</a> and <a href="https://thfl.tsinghua.edu.cn/yjdw/jzg/zxjg/rjwrhjqqyts/yjy/xyq.htm">Prof. Yingqing Xu</a>. He is the core member of <a href="https://qilu.group/">COS Lab - Coding Olfactory Space</a>. He has earned
+            his master's degree in Design (Tsinghua University) and bachelor's
+            degree in Creative Design and Intelligent Engineering (Xinya
+            College, Tsinghua University).
+          </p>
+          <p>
+            <strong>He works across
+            machine olfaction, AI smell, and
+            human-computer interaction.</strong> Compared with traditional
+            modalities such as vision and hearing, olfaction enables robots to
+            capture chemical signals from the environment, thereby allowing them
+            to detect abnormal odors, assess environmental changes, and even
+            anticipate potential risks. Through olfactory sensing, intelligent
+            systems can <strong>identify
+            concealed hazards that are smokeless, colorless, and silent, such as burning odors, food spoilage, and hazardous gases</strong>.
+          </p>
+          <p>
+            His research aims to address existing theoretical
+            limitations and overcome technological and design challenges in
+            areas including electronic noses,
+            machine olfaction, AI for odor encoding,
+            and olfactory human-computer interaction.
+          </p>
+        </div>
+      </section>
+      <!-- Research Focus -->
+      <section id="research">
+        <h2>Research Focus</h2>
+        <div class="research-list">
+          <article tabindex="0">
+            <div class="focus-content">
+              <h3>Machine Olfaction</h3>
+              <p>
+                He develops electronic-nose systems that capture, process, and
+                interpret chemical signals from the physical world.
+              </p>
+            </div>
+            <div class="focus-reveal" aria-hidden="true">
+              <img src="assets/images/machine_olfaction-cutout.png" alt="" />
+            </div>
+          </article>
+          <article tabindex="0">
+            <div class="focus-content">
+              <h3>AI Smell</h3>
+              <p>
+                He explores how artificial intelligence can structure odor
+                information, understand olfactory context, and reason about
+                smell.
+              </p>
+            </div>
+            <div class="focus-reveal" aria-hidden="true">
+              <img src="assets/images/AI_smell-transformer-cutout.png" alt="" />
+            </div>
+          </article>
+          <article tabindex="0">
+            <div class="focus-content">
+              <h3>Olfactory HCI</h3>
+              <p>
+                He designs interactive systems that make smell a meaningful
+                channel between people, intelligent devices, and environments.
+              </p>
+            </div>
+            <div class="focus-reveal" aria-hidden="true">
+              <img src="assets/images/olfactory_HCI-cutout.png" alt="" />
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- News -->
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li>
+            <time>May 2026</time
+            ><span
+              >Our smart-oven electronic nose paper was accepted by
+              <em>Sensors and Actuators B: Chemical</em>.</span
+            >
+          </li>
+          <li>
+            <time>May 2026</time
+            ><span
+              >I went to Chongqing to attend the International Symposium on Olfaction and Electronic Nose (ISOEN 2026) and presented my research in the poster session.</span
+            >
+          </li>
+          <li>
+            <time>Feb. 2026</time
+            ><span>“Paint by Odor” became available as an arXiv preprint.</span>
+          </li>
+          <li>
+            <time>May 2025</time
+            ><span
+              >Our universal electronic nose and grape spoilage monitoring
+              papers were published.</span
+            >
+          </li>
+        </ul>
+      </section>
+      <!-- Key Publications -->
+      <section id="publications">
+        <h2>Key Publications</h2>
+        <article class="publication">
+          <img
+            src="papers/Odor Context Sensing Dual-Dimension E-nose Analysis on Odor Substances and Dispersion States/banner.jpg"
+            alt="Odor context sensing"
+          />
+          <div>
+            <p class="venue">IEEE ISOEN 2026 · In press</p>
+            <h3>
+              Odor Context Sensing: Dual-Dimension E-nose Analysis on Odor
+              Substances and Dispersion States
+            </h3>
+            <p class="authors">
+              <strong>Gang Yu</strong>, Hongyi Zhao, Jia-Wei Yang, Keyang Tang,
+              Qi Lu
+            </p>
+            <p class="abstract">
+              Using five substances across static open-space, passing
+              open-space, and enclosed environments, we show that E-noses can
+              jointly decode chemical identity and source-environment context,
+              achieving 95.5% dispersion-state and 81.7% substance
+              classification accuracy.
+            </p>
+            <p>
+              <a
+                class="pub-link paper-link"
+                href="papers/Odor Context Sensing Dual-Dimension E-nose Analysis on Odor Substances and Dispersion States/2026074191.pdf"
+                target="_blank"
+                >Paper</a
+              >
+              ·
+              <a
+                class="pub-link bibtex-link"
+                href="papers/Odor Context Sensing Dual-Dimension E-nose Analysis on Odor Substances and Dispersion States/citation.bib"
+                download
+                >BibTeX</a
+              >
+            </p>
+          </div>
+        </article>
+        <article class="publication">
+          <img
+            src="papers/Electronic nose system for real-time burnt odor detection and multi-stage cooking recognition in smart ovens/banner.jpg"
+            alt="Smart oven electronic nose"
+          />
+          <div>
+            <p class="venue">Sensors and Actuators B: Chemical · 2026</p>
+            <h3>
+              Electronic Nose System for Real-time Burnt Odor Detection and
+              Multi-stage Cooking Recognition in Smart Ovens
+            </h3>
+            <p class="authors">
+              <strong>Gang Yu†</strong>, Yuchi Sun†, Haoxuan Han, Yang Lan, Tao
+              Guo, Yulei Liu, Bangqiang Han, Xinjian Huang, Wei Xi, Yan Cheng,
+              Qi Lu, Jia-Wei Yang, Yingqing Xu · †Equal contribution
+            </p>
+            <p class="abstract">
+              Burnt odors provide early indicators of kitchen fire hazards. We
+              integrate a four-sensor E-nose with a household oven to recognize
+              raw, tender, crispy, and burnt stages, achieving 91.3% average
+              accuracy across 20 real-time cooking trials.
+            </p>
+            <p>
+              <!-- <a
+                class="pub-link paper-link"
+                href="papers/Electronic nose system for real-time burnt odor detection and multi-stage cooking recognition in smart ovens/main.pdf"
+                target="_blank"
+                >Paper</a
+              >
+              · -->
+              <a
+                class="pub-link doi-link"
+                href="https://doi.org/10.1016/j.snb.2026.140161"
+                target="_blank"
+                >DOI</a
+              >
+              ·
+              <a
+                class="pub-link bibtex-link"
+                href="papers/Electronic nose system for real-time burnt odor detection and multi-stage cooking recognition in smart ovens/citation.bib"
+                download
+                >BibTeX</a
+              >
+            </p>
+          </div>
+        </article>
+        <article class="publication">
+          <img
+            src="papers/Paint by Odor An Exploration of Odor Visualization through Large Language Model and Generative AI/banner.jpg"
+            alt="Paint by Odor visualizations"
+          />
+          <div>
+            <p class="venue">arXiv · 2026</p>
+            <h3>
+              Paint by Odor: An Exploration of Odor Visualization through Large
+              Language Model and Generative AI
+            </h3>
+            <p class="authors">
+              <strong>Gang Yu</strong>, Yuchi Sun, Weining Yan, Xinyu Wang, Qi
+              Lu
+            </p>
+            <p class="abstract">
+              Paint by Odor uses generative AI and large language models to
+              translate olfactory perceptions into rich visual representations.
+              Studies with 30 odor-description participants and 28
+              image-evaluation participants reveal how language descriptions and
+              abstraction styles shape odor visualization.
+            </p>
+            <p>
+              <a
+                class="pub-link paper-link"
+                href="papers/Paint by Odor An Exploration of Odor Visualization through Large Language Model and Generative AI/2602.04159v1.pdf"
+                target="_blank"
+                >Paper</a
+              >
+              ·
+              <a
+                class="pub-link arxiv-link"
+                href="https://arxiv.org/abs/2602.04159"
+                target="_blank"
+                >arXiv</a
+              >
+              ·
+              <a
+                class="pub-link bibtex-link"
+                href="papers/Paint by Odor An Exploration of Odor Visualization through Large Language Model and Generative AI/citation.bib"
+                download
+                >BibTeX</a
+              >
+            </p>
+          </div>
+        </article>
+        <article class="publication">
+          <img
+            src="papers/An electronic nose device with rapid and universal odor detection capability/banner.png"
+            alt="Universal electronic nose system"
+          />
+          <div>
+            <p class="venue">Sensors and Actuators B: Chemical · 2025</p>
+            <h3>
+              An Electronic Nose Device with Rapid and Universal Odor Detection
+              Capability
+            </h3>
+            <p class="authors">
+              Yuchi Sun†, <strong>Gang Yu†</strong>, Qi Lu, Haoxuan Han, Jia-Wei
+              Yang, Yingqing Xu · †Equal contribution
+            </p>
+            <p class="abstract">
+              Electronic noses are commonly designed for specific substances or
+              single-purpose tasks. We present a miniaturized broad-spectrum
+              E-nose that detects 53 common substances in their original states,
+              achieves 95.0% offline accuracy, and performs real-time on-board
+              detection in only seven seconds.
+            </p>
+            <p>
+              <!-- <a
+                class="pub-link paper-link"
+                href="papers/An electronic nose device with rapid and universal odor detection capability/1-s2.0-S092540052500646X-main.pdf"
+                target="_blank"
+                >Paper</a
+              >
+              · -->
+              <a
+                class="pub-link doi-link"
+                href="https://doi.org/10.1016/j.snb.2025.137871"
+                target="_blank"
+                >DOI</a
+              >
+              ·
+              <a
+                class="video-link"
+                href="https://www.bilibili.com/video/BV1nLNd6ME7y/?vd_source=ae15c663e0a619a415d2440c0ecc0c6a"
+                target="_blank"
+                >Video</a
+              >
+              ·
+              <a
+                class="pub-link bibtex-link"
+                href="papers/An electronic nose device with rapid and universal odor detection capability/citation.bib"
+                download
+                >BibTeX</a
+              >
+            </p>
+          </div>
+        </article>
+        <article class="publication">
+          <img
+            src="papers/Exploring cross-variety fruit spoilage monitoring methods based on electronic nose taking grapes as examples/banner.jpg"
+            alt="Grape spoilage monitoring"
+          />
+          <div>
+            <p class="venue">
+              CCF Transactions on Pervasive Computing and Interaction · 2025
+            </p>
+            <h3>
+              Exploring Cross-variety Fruit Spoilage Monitoring Methods Based on
+              Electronic Nose: Taking Grapes as Examples
+            </h3>
+            <p class="authors">
+              Hongli Yang†, Haochen Huang†, Yuchi Sun, <strong>Gang Yu</strong>,
+              Qi Lu, Jiawei Yang, Yingqing Xu · †Equal contribution
+            </p>
+            <p class="abstract">
+              This study develops a non-invasive, automated odor-collection
+              system for grape freshness assessment during storage and
+              transportation. Continuous monitoring, inflection-point detection,
+              and machine-learning analysis show the potential of E-nose
+              technology for identifying freshness, spoilage stages, and grape
+              varieties.
+            </p>
+            <p>
+              <!-- <a
+                class="pub-link paper-link"
+                href="papers/Exploring cross-variety fruit spoilage monitoring methods based on electronic nose taking grapes as examples/s42486-025-00191-2.pdf"
+                target="_blank"
+                >Paper</a
+              >
+              · -->
+              <a
+                class="pub-link doi-link"
+                href="https://doi.org/10.1007/s42486-025-00191-2"
+                target="_blank"
+                >DOI</a
+              >
+              ·
+              <a
+                class="pub-link bibtex-link"
+                href="papers/Exploring cross-variety fruit spoilage monitoring methods based on electronic nose taking grapes as examples/citation.bib"
+                download
+                >BibTeX</a
+              >
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- Additional Publications and Projects -->
+      <section id="additional">
+        <h2>Additional Publications</h2>
+        <article class="publication">
+          <img
+            src="papers/EEG Based Artistic Visualization of Dreams/banner.jpg"
+            alt="EEG dream visualization"
+          />
+          <div>
+            <p class="venue">Chinese CHI · 2021</p>
+            <h3>EEG Based Artistic Visualization of Dreams</h3>
+            <p class="authors">
+              Yunbing Chen, Ke Shen, <strong>Gang Yu</strong>, Yuehan Qiao,
+              Xiangning Yan, Yingqing Xu
+            </p>
+            <p class="abstract">
+              This research explores artistic dream visualization using EEG data
+              recorded during REM sleep. Objective brain signals from 11
+              participants are combined with subjective emotion evaluation to
+              generate abstract visual expressions of dreams.
+            </p>
+            <p>
+              <!-- <a
+                href="papers/EEG Based Artistic Visualization of Dreams/3490355.3490376.pdf"
+                target="_blank"
+                >Paper</a
+              >
+              · -->
+              <a href="https://doi.org/10.1145/3490355.3490376" target="_blank"
+                >DOI</a
+              >
+              ·
+              <a
+                class="pub-link bibtex-link"
+                href="papers/EEG Based Artistic Visualization of Dreams/citation.bib"
+                download
+                >BibTeX</a
+              >
+            </p>
+          </div>
+        </article>
+        <article class="publication">
+          <img
+            src="papers/Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study/banner.jpg"
+            alt="BalloonBot social robot"
+          />
+          <div>
+            <p class="venue">ACM UIST · 2025</p>
+            <h3>
+              Understanding Users' Perceptions and Expectations toward a Social
+              Balloon Robot via an Exploratory Study
+            </h3>
+            <p class="authors">
+              Chongyang Wang, Tianyi Xia, Yifan Wang, <strong>Gang Yu</strong>,
+              Zixuan Zhao, Siqi Zheng, Manqiu Liao, Chen Liang, Yuan Gao, Chun
+              Yu, Yuntao Wang, Yuanchun Shi
+            </p>
+            <p class="abstract">
+              This work explores a social balloon robot as an embodied agent
+              combining spatial mobility with safe, approachable interaction.
+              Through a BalloonBot prototype and an exploratory user study, we
+              examine perceptions of its social functions and considerations for
+              future applications.
+            </p>
+            <p>
+              <!-- <a
+                href="papers/Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study/3746059.3747666.pdf"
+                target="_blank"
+                >Paper</a
+              >
+              · -->
+              <a href="https://doi.org/10.1145/3746059.3747666" target="_blank"
+                >DOI</a
+              >
+              ·
+              <a
+                class="pub-link bibtex-link"
+                href="papers/Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study/citation.bib"
+                download
+                >BibTeX</a
+              >
+            </p>
+          </div>
+        </article>
+        <article class="publication">
+          <img
+            src="assets/images/helium balloon.jpg"
+            alt="Indoor helium aerostat prototype"
+          />
+          <div>
+            <p class="venue">Design Project</p>
+            <h3>Indoor Helium Aerostat</h3>
+            <p class="authors"><strong>Gang Yu</strong></p>
+            <p class="abstract">
+              A safer and quieter alternative to indoor quadrotors. The aerostat
+              uses a helium-filled main airbag for buoyancy and an auxiliary
+              airbag to change its mass, combining mechanical design, electronic
+              hardware, control algorithms, and industrial design.
+            </p>
+            <p>
+              <a href="assets/files/helium.pdf?project=1" target="_blank"
+                >Project PDF</a
+              >
+              ·
+              <a
+                class="video-link"
+                href="https://www.bilibili.com/video/BV1154y1G7WN/"
+                target="_blank"
+                >Video</a
+              >
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:yug24@mails.tsinghua.edu.cn"
+            >yug24@mails.tsinghua.edu.cn</a
+          ><br />WeChat: yugang16<br />Location: Building A, Shuangqing Zonghe Building, Haidian District, Beijing, China
+        </p>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="container">
+      © <span id="year">2026</span> Gang Yu / Gordon
+    </footer>
+    <!-- Page interactions: year and paper image/title links -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      document.querySelectorAll(".publication").forEach(function (item) {
+        var paper = item.querySelector('a[href$=".pdf"]');
+        if (!paper) return;
+        var href = paper.getAttribute("href");
+        var image = item.querySelector(":scope > img");
+        if (image) {
+          var imageLink = document.createElement("a");
+          imageLink.href = href;
+          imageLink.target = "_blank";
+          imageLink.className = "publication-image-link";
+          image.parentNode.insertBefore(imageLink, image);
+          imageLink.appendChild(image);
+        }
+        var title = item.querySelector("h3");
+        if (title) {
+          var titleLink = document.createElement("a");
+          titleLink.href = href;
+          titleLink.target = "_blank";
+          titleLink.className = "publication-title-link";
+          title.parentNode.insertBefore(titleLink, title);
+          titleLink.appendChild(title);
+        }
+      });
+    </script>
+  </body>
 </html>
