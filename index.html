@@ -518,13 +518,16 @@
     <footer class="container">
       © <span id="year">2026</span> Gang Yu / Gordon
     </footer>
-    <!-- Page interactions: year and paper image/title links -->
+    <!-- Page interactions: year and publication image/title links (DOI first, PDF fallback) -->
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
       document.querySelectorAll(".publication").forEach(function (item) {
-        var paper = item.querySelector('a[href$=".pdf"]');
-        if (!paper) return;
-        var href = paper.getAttribute("href");
+        var doi = item.querySelector('a[href^="https://doi.org/"]');
+        var paper = item.querySelector('a[href*=".pdf"]');
+        var destination = doi || paper;
+        if (!destination) return;
+
+        var href = destination.getAttribute("href");
         var image = item.querySelector(":scope > img");
         if (image) {
           var imageLink = document.createElement("a");
